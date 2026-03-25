@@ -2,7 +2,6 @@ import { test, expect } from "@playwright/test";
 import fs from "fs";
 import path from "path";
 
-// Read JSON data
 const dataPath = path.join(__dirname, "../tests/uploadFile/e2e.json");
 const testData = JSON.parse(fs.readFileSync(dataPath, "utf-8"));
 
